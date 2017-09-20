@@ -1,7 +1,7 @@
 // module /spa/
 // Provides chat slider capability
 
-import jQuery from 'jquery';
+import $ from 'jquery';
 import './spa.css';
 
 const spa = (
@@ -65,7 +65,6 @@ const spa = (
   })();
 
 // Start spa once DOM is ready
-jQuery(document).ready(
-  () => {
-    spa.initModule(jQuery('#spa'));
-  });
+$(() => {
+  spa.initModule($('#spa'));
+});
