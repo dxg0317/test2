@@ -13,7 +13,7 @@
                 "type": "node",
                 "request": "launch",
                 "name": "Launch Program",
-                "program": "${workspaceRoot}/src/web"
+                "program": "${workspaceRoot}/src/index"
             }
         ]
     }
