@@ -1,0 +1,19 @@
+/**
+ * Filename: e:\Projects\test2\.vscode\launch.json
+ * Path: e:\Projects\test2
+ * Created Date: Monday, September 18th 2017, 10:01:04 am
+ * Author: CZRCW
+ * 
+ * Copyright (c) 2017 Your Company
+ */
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}/src/web"
+            }
+        ]
+    }

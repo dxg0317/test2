@@ -1,0 +1,19 @@
+{
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": 5,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "commonjs": true,
+        "meteor": true,
+        "mongo": true,
+        "jquery": true,
+        "amd": true
+      }
+}
