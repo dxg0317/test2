@@ -1,6 +1,3 @@
-// module /spa/
-// Provides chat slider capability
-
 import $ from 'jquery';
 import './spa.css';
 
